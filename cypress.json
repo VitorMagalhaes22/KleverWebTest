@@ -1,0 +1,12 @@
+{
+  "baseUrl": "https://klever.io",
+  "video": false,
+  "screenshotOnRunFailure": true,
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/report",
+    "charts": true,
+    "reportPageTitle": "Klever Report",
+    "embeddedScreenshots": true
+  }
+}
